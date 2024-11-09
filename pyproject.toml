@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "datasus-handler"
+version = "0.1.0"
+description = ""
+authors = ["Anthony-MPO-dev <anthonymuniz12@gmail.com>"]
+readme = "README.md"
+packages = [{include = "datasus-handler", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyreaddbc = "1.2.0"
+pandas = "*"
+numpy = "*"
+pyarrow = "^17.0.0"
+fastparquet = "^2024.5.0"
+blue = "*"
+isort = "*"
+selenium = "*"
+requests = "^2.32.3"
+unidecode = "^1.3.8"
+bs4 = "^0.0.2"
+dbfread = "^2.0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
